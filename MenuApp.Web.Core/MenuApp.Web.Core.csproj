@@ -14,8 +14,4 @@
     <ProjectReference Include="..\MenuApp.Application\MenuApp.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
-
 </Project>

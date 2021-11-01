@@ -1,4 +1,5 @@
-﻿using Furion;
+﻿using Dapper;
+using Furion;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +14,7 @@ namespace MenuApp.Web.Core
             services.AddControllers().AddInjectWithUnifyResult().AddFriendlyException(); ;
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddDapper("Database=menu_db;Data Source=localhost;User Id=root;Password=root;CharSet=utf8;port=3306", SqlProvider.MySql);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
