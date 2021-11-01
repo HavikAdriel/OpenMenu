@@ -1,0 +1,13 @@
+D:\huabliss\MenuApp\MenuApp.Core\bin\Debug\net5.0\MenuApp.Core.deps.json
+D:\huabliss\MenuApp\MenuApp.Core\bin\Debug\net5.0\MenuApp.Core.dll
+D:\huabliss\MenuApp\MenuApp.Core\bin\Debug\net5.0\ref\MenuApp.Core.dll
+D:\huabliss\MenuApp\MenuApp.Core\bin\Debug\net5.0\MenuApp.Core.pdb
+D:\huabliss\MenuApp\MenuApp.Core\bin\Debug\net5.0\MenuApp.Core.xml
+D:\huabliss\MenuApp\MenuApp.Core\obj\Debug\net5.0\MenuApp.Core.csproj.AssemblyReference.cache
+D:\huabliss\MenuApp\MenuApp.Core\obj\Debug\net5.0\MenuApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\huabliss\MenuApp\MenuApp.Core\obj\Debug\net5.0\MenuApp.Core.AssemblyInfoInputs.cache
+D:\huabliss\MenuApp\MenuApp.Core\obj\Debug\net5.0\MenuApp.Core.AssemblyInfo.cs
+D:\huabliss\MenuApp\MenuApp.Core\obj\Debug\net5.0\MenuApp.Core.csproj.CoreCompileInputs.cache
+D:\huabliss\MenuApp\MenuApp.Core\obj\Debug\net5.0\MenuApp.Core.dll
+D:\huabliss\MenuApp\MenuApp.Core\obj\Debug\net5.0\ref\MenuApp.Core.dll
+D:\huabliss\MenuApp\MenuApp.Core\obj\Debug\net5.0\MenuApp.Core.pdb
