@@ -6,11 +6,14 @@ import store from './store'
 //bootstrap样式
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+// 引入echarts
+import * as echarts from 'echarts'
+
 //vant组件
 import { Button,Form, Field, CellGroup,Tabbar, TabbarItem } from 'vant';
 import { Col, Row,Notify,Dialog,RadioGroup, Radio,NavBar,Search,Tag,TreeSelect } from 'vant';
 import {Uploader,Icon,Swipe, SwipeItem} from 'vant'
-import {Image as VanImage,List,Cell,Divider,SwipeCell,Card,Popover,Sidebar, SidebarItem,Toast,Grid, GridItem} from 'vant'
+import {Image as VanImage,List,Cell,Divider,SwipeCell,Card,Popover,Sidebar, SidebarItem,Toast,Grid, GridItem,Tab, Tabs} from 'vant'
 
 //axios
 import axios from "axios";
@@ -51,10 +54,13 @@ app.use(SidebarItem);
 app.use(Toast);
 app.use(Grid);
 app.use(GridItem);
+app.use(Tab);
+app.use(Tabs);
 //全局vant函数
 app.config.globalProperties.$Dialog = Dialog
 app.config.globalProperties.$Notify = Notify
 app.config.globalProperties.$Toast = Toast
-
 //axios
 app.config.globalProperties.$axios = axios
+//vue
+app.config.globalProperties.$echarts= echarts 

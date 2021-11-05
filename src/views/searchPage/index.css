@@ -1,0 +1,7 @@
+.me-searchPage {
+  background-color: var(--van-card-background-color);
+}
+
+.me-searchPage .me-history {
+  margin: 25px 15px;
+}

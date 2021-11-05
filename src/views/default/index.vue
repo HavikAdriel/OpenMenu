@@ -4,7 +4,7 @@
       v-model="searchText"
       show-action
       placeholder="搜索亿万免费菜谱"
-      @search="onSearch"
+      @click-input="clickInput"
     >
       <template #action>
         <van-popover
@@ -85,6 +85,9 @@ export default {
       { text: "扫码", value: 0 },
       { text: "发布", value: 1 },
     ];
+    function clickInput() {
+      proxy.$router.push("/searchPage");
+    }
     const onSelect = (action) => {
       console.info(action);
       if (action.value === 0) {
@@ -108,6 +111,7 @@ export default {
       actions,
       onSelect,
       showPopover,
+      clickInput,
     };
   },
 };
