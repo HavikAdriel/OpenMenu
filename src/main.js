@@ -9,7 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //vant组件
 import { Button,Form, Field, CellGroup,Tabbar, TabbarItem } from 'vant';
 import { Col, Row,Notify,Dialog,RadioGroup, Radio,NavBar,Search,Tag,TreeSelect } from 'vant';
-import {Uploader} from 'vant'
+import {Uploader,Icon,Swipe, SwipeItem} from 'vant'
+import {Image as VanImage,List,Cell,Divider,SwipeCell,Card,Popover,Sidebar, SidebarItem,Toast,Grid, GridItem} from 'vant'
 
 //axios
 import axios from "axios";
@@ -35,9 +36,25 @@ app.use(Search);
 app.use(Tag);
 app.use(TreeSelect);
 app.use(Uploader);
+app.use(Icon);
+app.use(Swipe);
+app.use(SwipeItem);
+app.use(VanImage);
+app.use(List);
+app.use(Cell);
+app.use(Divider);
+app.use(SwipeCell);
+app.use(Card);
+app.use(Popover);
+app.use(Sidebar);
+app.use(SidebarItem);
+app.use(Toast);
+app.use(Grid);
+app.use(GridItem);
 //全局vant函数
 app.config.globalProperties.$Dialog = Dialog
 app.config.globalProperties.$Notify = Notify
+app.config.globalProperties.$Toast = Toast
 
 //axios
 app.config.globalProperties.$axios = axios

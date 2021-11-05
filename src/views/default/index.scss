@@ -1,8 +1,28 @@
 .me-default{
+    background-color:$BgColor ;
     .me-content{
         margin:auto 15px;
     }
-    .me-filter{
-        font-size: 0.8em;
+    .me-hot{
+        letter-spacing: 2px;
+        h5{
+            margin-bottom:15px;
+        }
+        .me-image{
+            overflow: hidden;
+            box-shadow: 0px 0px 4px rgb(0,0,3)
+        }
+        .m-img-text{
+            position: relative;
+            bottom: 80px;
+            left: 20px;
+            color: white;
+            font-weight: bold;
+        }
+    }
+    .me-newList{
+        .me-new-text{
+            margin:15px 0px;
+        }
     }
 }

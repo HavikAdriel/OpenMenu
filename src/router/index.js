@@ -20,6 +20,21 @@ const routes = [
     path: '/upload',
     name: 'upload',
     component: () => import('@/views/upload')
+  },
+  {
+    path: '/typeFilter',
+    name: 'typeFilter',
+    component: () => import('@/views/typeFilter')
+  },
+  {
+    path: '/sum',
+    name: 'sum',
+    component: () => import('@/views/sum')
+  },
+  {
+    path: '/myself',
+    name: 'myself',
+    component: () => import('@/views/myself')
   }
 ]
 
